@@ -33,6 +33,7 @@ class Connection(object):
         self._db.close()
 
 
+'''
 connection = Connection("localhost", "amazon", "postgres", "123456")
 
 print(connection._db.cursor())
@@ -42,3 +43,69 @@ print(connection.consultar("select * from cidade;"))
 answer = connection.consultar("select * from cidade;")
 
 print(answer[0][1])
+'''
+count = 0
+lista = []
+objeto = {}
+
+
+def numbers_to_strings(argument):
+    switcher = {
+        'Book': 1,
+    }
+    return switcher.get(argument, "nothing")
+
+
+with open("entrada.txt", "r") as arquivo:
+    entrada = arquivo.readlines()
+    entradaSemQuebra = [n.replace('\n', '') for n in entrada]
+    cont = 1
+    for i in range(len(entradaSemQuebra)):
+        if(entradaSemQuebra[i].split(":")[0].strip() == 'Id'):
+            if(objeto.get('id') or i == len(entradaSemQuebra) - 1):
+                print('acabou o produto, vai comecar um novo')
+                lista.append(objeto)
+                objeto = {}
+            else:
+                print('ainda n')
+            objeto['id'] = entradaSemQuebra[i].split(":")[1].strip()
+        elif(entradaSemQuebra[i].split(":")[0].strip() == 'ASIN'):
+            objeto['asin'] = entradaSemQuebra[i].split(':')[1].strip()
+        elif(entradaSemQuebra[i].split(":")[0].strip() == 'title'):
+            objeto['title'] = entradaSemQuebra[i].strip()[7:]
+        elif(entradaSemQuebra[i].split(":")[0].strip() == 'group'):
+            objeto['group_id'] = numbers_to_strings(
+                entradaSemQuebra[i].split(":")[1].strip())
+        elif(entradaSemQuebra[i].split(":")[0].strip() == 'salesrank'):
+            objeto['salesrank'] = entradaSemQuebra[i].split(":")[1].strip()
+        elif(entradaSemQuebra[i].split(":")[0].strip() == 'similar'):
+            objeto['similar'] = entradaSemQuebra[i].split(
+                ":")[1].strip().split('  ')
+        elif(entradaSemQuebra[i].split(":")[0].strip() == 'categories'):
+            objeto['categories'] = []
+            for j in range(1, int(entradaSemQuebra[i].split(":")[1].strip())+1):
+                objeto['categories'].append(
+                    list(filter(None, entradaSemQuebra[i + j].strip().split("|"))))
+        elif(entradaSemQuebra[i].split(':')[0].strip() == 'reviews'):
+            objeto['reviews'] = []
+
+            for j in range(1, int((entradaSemQuebra[i].split(":")[2].strip()[0] + entradaSemQuebra[i].split(":")[2].strip()[1])) + 1):
+                novoReview = {
+                    'date': entradaSemQuebra[i + j].strip().split(
+                        "|")[0].split(':')[0].strip().split('  ')[0],  # pegando data de cada review
+                    'customer': entradaSemQuebra[i + j].strip().split(
+                        "|")[0].split(':')[1].strip().split('  ')[0],
+                    'rating': entradaSemQuebra[i + j].strip().split(
+                        "|")[0].split(':')[2].strip().split('  ')[0],
+                    'votes': entradaSemQuebra[i + j].strip().split(
+                        "|")[0].split(':')[3].strip().split('  ')[0],
+                    'helpful': entradaSemQuebra[i + j].strip().split(
+                        "|")[0].split(':')[4].strip().split('  ')[0]
+                }
+                objeto['reviews'].append(novoReview)
+
+        # ultima linha que é um reviews
+        if(entradaSemQuebra[i] == entradaSemQuebra[len(entradaSemQuebra) - 1]):
+            lista.append(objeto)
+        print(entradaSemQuebra[i].split(":"))
+print(lista)
