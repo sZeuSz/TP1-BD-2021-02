@@ -116,4 +116,4 @@ while True:
     while(pos < 0 or pos > tam):
         pos = int(input('qual posicao deseja checar?'))
     print(lista[pos])
-    pos = int(input('qual posicao deseja checar?'))
+    break
