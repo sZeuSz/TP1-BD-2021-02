@@ -1,4 +1,7 @@
 import psycopg2
+import time
+
+start = time.time()
 
 
 class Connection(object):
@@ -56,40 +59,43 @@ def numbers_to_strings(argument):
     return switcher.get(argument, "nothing")
 
 
-with open("entrada.txt", "r") as arquivo:
+with open("entrada1.txt", "r") as arquivo:
     entrada = arquivo.readlines()
-    entradaSemQuebra = [n.replace('\n', '') for n in entrada]
-    cont = 1
-    for i in range(len(entradaSemQuebra)):
-        if(entradaSemQuebra[i].split(":")[0].strip() == 'Id'):
-            if(objeto.get('id') or i == len(entradaSemQuebra) - 1):
-                print('acabou o produto, vai comecar um novo')
+    entradaSemQuebra = [n.replace('\n', '')
+                        for n in entrada]
+    tam = len(entradaSemQuebra)
+    # print(tam)
+    for i in range(tam):
+        count += 1
+        propriedade = entradaSemQuebra[i].split(":")[0].strip()
+        if propriedade == 'Id':
+            if objeto.get('id') or i == tam - 1:
+                # print('acabou o produto, vai comecar um novo')
                 lista.append(objeto)
                 objeto = {}
-            else:
-                print('ainda n')
+            # else:
+                # print('ainda n')
             objeto['id'] = entradaSemQuebra[i].split(":")[1].strip()
-        elif(entradaSemQuebra[i].split(":")[0].strip() == 'ASIN'):
+        elif propriedade == 'ASIN':
             objeto['asin'] = entradaSemQuebra[i].split(':')[1].strip()
-        elif(entradaSemQuebra[i].split(":")[0].strip() == 'title'):
+        elif propriedade == 'title':
             objeto['title'] = entradaSemQuebra[i].strip()[7:]
-        elif(entradaSemQuebra[i].split(":")[0].strip() == 'group'):
+        elif propriedade == 'group':
             objeto['group_id'] = numbers_to_strings(
                 entradaSemQuebra[i].split(":")[1].strip())
-        elif(entradaSemQuebra[i].split(":")[0].strip() == 'salesrank'):
+        elif propriedade == 'salesrank':
             objeto['salesrank'] = entradaSemQuebra[i].split(":")[1].strip()
-        elif(entradaSemQuebra[i].split(":")[0].strip() == 'similar'):
+        elif propriedade == 'similar':
             objeto['similar'] = entradaSemQuebra[i].split(
                 ":")[1].strip().split('  ')
-        elif(entradaSemQuebra[i].split(":")[0].strip() == 'categories'):
+        elif propriedade == 'categories':
             objeto['categories'] = []
             for j in range(1, int(entradaSemQuebra[i].split(":")[1].strip())+1):
                 objeto['categories'].append(
                     list(filter(None, entradaSemQuebra[i + j].strip().split("|"))))
-        elif(entradaSemQuebra[i].split(':')[0].strip() == 'reviews'):
+        elif propriedade == 'reviews':
             objeto['reviews'] = []
-
-            for j in range(1, int((entradaSemQuebra[i].split(":")[2].strip()[0] + entradaSemQuebra[i].split(":")[2].strip()[1])) + 1):
+            for j in range(1, int(entradaSemQuebra[i].split(":")[3].strip()[0] + entradaSemQuebra[i].split(":")[3].strip()[1]) + 1):
                 novoReview = {
                     'date': entradaSemQuebra[i + j].strip().split(
                         "|")[0].split(':')[0].strip().split('  ')[0],  # pegando data de cada review
@@ -103,9 +109,8 @@ with open("entrada.txt", "r") as arquivo:
                         "|")[0].split(':')[4].strip().split('  ')[0]
                 }
                 objeto['reviews'].append(novoReview)
-
-        # ultima linha que é um reviews
-        if(entradaSemQuebra[i] == entradaSemQuebra[len(entradaSemQuebra) - 1]):
-            lista.append(objeto)
-        print(entradaSemQuebra[i].split(":"))
-print(lista)
+    lista.append(objeto)
+    # print(lista)
+    end = time.time()
+    print(end - start)
+    print(count)
