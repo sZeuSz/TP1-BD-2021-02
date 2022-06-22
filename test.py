@@ -47,7 +47,6 @@ answer = connection.consultar("select * from cidade;")
 
 print(answer[0][1])
 '''
-count = 0
 lista = []
 objeto = {}
 
@@ -59,14 +58,13 @@ def numbers_to_strings(argument):
     return switcher.get(argument, "nothing")
 
 
-with open("entrada1.txt", "r") as arquivo:
+with open("amazon-meta.txt", "r") as arquivo:
     entrada = arquivo.readlines()
     entradaSemQuebra = [n.replace('\n', '')
                         for n in entrada]
     tam = len(entradaSemQuebra)
     # print(tam)
     for i in range(tam):
-        count += 1
         propriedade = entradaSemQuebra[i].split(":")[0].strip()
         if propriedade == 'Id':
             if objeto.get('id') or i == tam - 1:
@@ -110,7 +108,12 @@ with open("entrada1.txt", "r") as arquivo:
                 }
                 objeto['reviews'].append(novoReview)
     lista.append(objeto)
-    # print(lista)
     end = time.time()
     print(end - start)
-    print(count)
+tam = len(lista)
+pos = -1
+while True:
+    while(pos < 0 or pos > tam):
+        pos = int(input('qual posicao deseja checar?'))
+    print(lista[pos])
+    pos = int(input('qual posicao deseja checar?'))
