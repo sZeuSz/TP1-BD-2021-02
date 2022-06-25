@@ -141,6 +141,6 @@ INSERT INTO products (id, asin) VALUES (0, '0827229534') RETURNING ID;
 
 -- Querys Dashboard
 
-SELECT reviews.* FROM products_reviews JOIN products ON products.id=products_reviews.product_id JOIN reviews ON reviews.id = products_reviews.review_id WHERE products.id = 307 ORDER BY reviews.helpful DESC, reviews.rating DESC LIMIT 5;
+SELECT reviews.* FROM products_reviews JOIN products ON products.id=products_reviews.product_id JOIN reviews ON reviews.id = products_reviews.review_id WHERE products.id = 306 ORDER BY reviews.helpful DESC, reviews.rating DESC LIMIT 5;
 
-SELECT reviews.* FROM products_reviews JOIN products ON products.id=products_reviews.product_id JOIN reviews ON reviews.id = products_reviews.review_id WHERE products.id = 307 ORDER BY reviews.helpful DESC, reviews.rating LIMIT 5;
+SELECT reviews.* FROM products_reviews JOIN products ON products.id=products_reviews.product_id JOIN reviews ON reviews.id = products_reviews.review_id WHERE products.id = 306 ORDER BY reviews.helpful DESC, reviews.rating LIMIT 5;
