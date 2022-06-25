@@ -1,0 +1,27 @@
+[
+    {
+        "id": "1", 
+        "asin": "0827229534", 
+        "title": "Patterns of Preaching: A Sermon Sampler", 
+        "group_id": 1, 
+        "salesrank": "396585", 
+        "similar": ["5", "0804215715", "156101074X", "0687023955", "0687074231", "082721619X"], 
+        "categories": {("Sermons[12370]", "12370", "12360"), ("Preaching[12368]", "12368", "12360"), ("Christianity[12290]", "12290", "22"), ("Clergy[12360]", "12360", "12290"), ("Subjects[1000]", "1000", "283155"), ("Books[283155]", "283155", "NULL"), ("Religion & Spirituality[22]", "22", "1000")}, 
+        "reviews": [
+            {
+                "date": "2000-7-28", 
+                "customer": "A2JW67OY8U6HHK", 
+                "rating": "5", 
+                "votes": "10", 
+                "helpful": "9"
+            }, 
+            {
+                "date": "2003-12-14", 
+                "customer": "A2VE83MZF98ITY", 
+                "rating": "5", 
+                "votes": "6", 
+                "helpful": "5"
+            }
+        ]
+    }
+]
