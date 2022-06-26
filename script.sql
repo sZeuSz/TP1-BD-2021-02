@@ -140,7 +140,12 @@ INSERT INTO products (id, asin) VALUES (0, '0827229534') RETURNING ID;
 
 
 -- Querys Dashboard
+-- a
 
-SELECT reviews.* FROM products_reviews JOIN products ON products.id=products_reviews.product_id JOIN reviews ON reviews.id = products_reviews.review_id WHERE products.id = 306 ORDER BY reviews.helpful DESC, reviews.rating DESC LIMIT 5;
+-- derradeira
 
-SELECT reviews.* FROM products_reviews JOIN products ON products.id=products_reviews.product_id JOIN reviews ON reviews.id = products_reviews.review_id WHERE products.id = 306 ORDER BY reviews.helpful DESC, reviews.rating LIMIT 5;
+select * from (SELECT reviews.* FROM products_reviews JOIN products ON products.id=products_reviews.product_id JOIN reviews ON reviews.id = products_reviews.review_id WHERE products.id = 21 ORDER BY reviews.helpful DESC, reviews.rating DESC LIMIT 5 OFFSET 0) as ninidora union all select * from (SELECT reviews.* FROM products_reviews JOIN products ON products.id=products_reviews.product_id JOIN reviews ON reviews.id = products_reviews.review_id WHERE products.id = 21 ORDER BY reviews.helpful DESC, reviews.rating LIMIT 5 OFFSET 5) as brunin;;
+
+-- b
+select distintic products.* from products_similars JOIN (SELECT similars.asin FROM products_similars JOIN products ON products.id = 401991 JOIN similars ON similars.id = products_similars.similar_id) as asins on asins.asin = products_similars.similar_id JOIN (select * from products where id = 401991) as ok on products_similars.product_id = 401991 JOIN products on products.asin = asins.asin 
+AND products.salesrank > ok.salesrank;

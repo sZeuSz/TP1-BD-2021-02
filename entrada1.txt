@@ -1,193 +1,84 @@
+Id:   401991
+ASIN: 0842333355
+  title: Daily Study Bible for Women (Daily Study Bible for Women)
+  group: Book
+  salesrank: 241365
+  similar: 5  0842333282  0842374841  0842332588  0842352333  0842345671
+  categories: 5
+   |Books[283155]|Subjects[1000]|Religion & Spirituality[22]|Christianity[12290]|Bibles[12059]|Translations[764432]|New Living Translation[12112]
+   |Books[283155]|Subjects[1000]|Religion & Spirituality[22]|Christianity[12290]|Worship & Devotion[12465]|Meditations[69983]
+   |Books[283155]|Subjects[1000]|Religion & Spirituality[22]|Christianity[12290]|Bibles[12059]|Specific Types[764436]|Study Bibles[572076]
+   |Books[283155]|Subjects[1000]|Religion & Spirituality[22]|Christianity[12290]|Reference[172810]|Bible Study[720864]|General[720866]
+   |Books[283155]|Subjects[1000]|Religion & Spirituality[22]|Christianity[12290]|Christian Living[12333]|Women's Issues[3043241]
+  reviews: total: 2  downloaded: 2  avg rating: 5
+    2000-3-25  cutomer:  AV7GR1BKH727V  rating: 5  votes:  22  helpful:  20
+    2004-2-10  cutomer: A1XO2234EG2LBE  rating: 5  votes:   2  helpful:   2
 
-Id:   306
-ASIN: 6304702329
-  title: Before Sunrise
-  group: Video
-  salesrank: 69930
-  similar: 5  B0002YLC24  B00005JMJG  B0002C4JIA  B0007TKOAA  B0007OCG4W
-  categories: 6
-   |[139452]|VHS[404272]|Actors & Actresses[140]|( D )[144551]|Delpy, Julie[144966]
-   |[139452]|VHS[404272]|Actors & Actresses[140]|( H )[148037]|Hawke, Ethan[148505]
-   |[139452]|VHS[404272]|Genres[404274]|Art House & International[126]|By Theme[162244]|Romance[162507]
-   |[139452]|VHS[404272]|Directors[139]|( L )[165903]|Linklater, Richard[166099]
-   |[139452]|VHS[404272]|Genres[404274]|Drama[129]|General[168754]
-   |[139452]|VHS[404272]|Genres[404274]|Comedy[128]|Romantic Comedies[163279]|General[541268]
-  reviews: total: 178  downloaded: 178  avg rating: 4.5
-    1998-11-27  cutomer:  ATVPDKIKX0DER  rating: 5  votes:   4  helpful:   3
-    1998-12-5  cutomer: A3TF28ZB3O7JM4  rating: 5  votes:   2  helpful:   2
-    1998-12-7  cutomer:  ATVPDKIKX0DER  rating: 5  votes:   2  helpful:   2
-    1999-1-6  cutomer:  ATVPDKIKX0DER  rating: 5  votes:   3  helpful:   2
-    1999-1-8  cutomer:  AFUVZNFB1DA00  rating: 5  votes:   1  helpful:   1
-    1999-1-13  cutomer: A3F22FNRC6113E  rating: 5  votes:   2  helpful:   2
-    1999-1-22  cutomer: A1KJP7DSSYX5EB  rating: 5  votes:   2  helpful:   2
-    1999-1-26  cutomer: A1VLY59KORG8R4  rating: 5  votes:   3  helpful:   3
-    1999-1-30  cutomer: A2SU1SO207HU7X  rating: 5  votes:   4  helpful:   3
-    1999-1-31  cutomer:  ATVPDKIKX0DER  rating: 5  votes:   2  helpful:   2
-    1999-2-3  cutomer:  ATVPDKIKX0DER  rating: 5  votes:   2  helpful:   2
-    1999-2-8  cutomer: A3LNKX22ZWRHUA  rating: 5  votes:   3  helpful:   3
-    1999-2-9  cutomer: A12CNVNNX7NQ8U  rating: 5  votes:   3  helpful:   3
-    1999-2-19  cutomer: A2XC92X49KNDD0  rating: 5  votes:   3  helpful:   3
-    1999-3-13  cutomer:  ATVPDKIKX0DER  rating: 5  votes:   5  helpful:   4
-    1999-3-23  cutomer:  ATVPDKIKX0DER  rating: 5  votes:   5  helpful:   5
-    1999-3-26  cutomer:  ATVPDKIKX0DER  rating: 5  votes:   3  helpful:   2
-    1999-4-3  cutomer: A2Y3FAO82SU0M0  rating: 5  votes:   2  helpful:   2
-    1999-4-27  cutomer:  ATVPDKIKX0DER  rating: 5  votes:   3  helpful:   3
-    1999-5-2  cutomer: A2Y8GWKBMHQRKZ  rating: 5  votes:   3  helpful:   3
-    1999-5-23  cutomer: A18FR476VZHKA6  rating: 5  votes:   3  helpful:   3
-    1999-5-25  cutomer:  ATVPDKIKX0DER  rating: 1  votes:  21  helpful:   3
-    1999-6-4  cutomer: A1DVZ3TBZKVHWM  rating: 5  votes:   2  helpful:   2
-    1999-6-10  cutomer:  ATVPDKIKX0DER  rating: 5  votes:   1  helpful:   1
-    1999-6-14  cutomer:  ATVPDKIKX0DER  rating: 5  votes:   3  helpful:   3
-    1999-7-1  cutomer: A2RRAPQYH6IER7  rating: 5  votes:   4  helpful:   2
-    1999-7-9  cutomer:  ATVPDKIKX0DER  rating: 5  votes:   1  helpful:   1
-    1999-7-14  cutomer:  ATVPDKIKX0DER  rating: 5  votes:   1  helpful:   1
-    1999-7-16  cutomer:  ATVPDKIKX0DER  rating: 5  votes:   3  helpful:   3
-    1999-7-24  cutomer:  ATVPDKIKX0DER  rating: 5  votes:   7  helpful:   7
-    1999-8-4  cutomer:  ATVPDKIKX0DER  rating: 5  votes:   1  helpful:   1
-    1999-8-5  cutomer: A3B1FXA8SQ104U  rating: 5  votes:   1  helpful:   1
-    1999-8-7  cutomer:  AW4ZB0V7C6K94  rating: 5  votes:   3  helpful:   2
-    1999-8-10  cutomer:  ATVPDKIKX0DER  rating: 5  votes:   2  helpful:   2
-    1999-8-29  cutomer: A14JJGQVR375HV  rating: 5  votes:   3  helpful:   2
-    1999-9-29  cutomer:  AGQ73NB4OF2F0  rating: 5  votes:   3  helpful:   3
-    1999-10-6  cutomer: A3T3SKB9SF4GOB  rating: 5  votes:   2  helpful:   2
-    1999-10-16  cutomer: A3F543N119NKPF  rating: 5  votes:   5  helpful:   5
-    1999-10-16  cutomer:  ATVPDKIKX0DER  rating: 5  votes:   3  helpful:   2
-    1999-10-27  cutomer: A3QZH7G1SEJE73  rating: 2  votes:  38  helpful:   1
-    1999-11-16  cutomer: A2TYN2RV4NQ29W  rating: 5  votes:   5  helpful:   5
-    1999-12-8  cutomer: A2H1YION143OMD  rating: 5  votes:   1  helpful:   1
-    1999-12-20  cutomer: A34PUCLNFN62D3  rating: 5  votes:   8  helpful:   7
-    1999-12-20  cutomer: A39WNXSELWZ9BE  rating: 5  votes:   1  helpful:   1
-    2000-1-4  cutomer:  ACRMPP3FE4RH9  rating: 5  votes:  13  helpful:  12
-    2000-1-13  cutomer:  AKNFUB7W47ZXD  rating: 5  votes:   3  helpful:   2
-    2000-1-19  cutomer:  AMM7BNO6WQWWH  rating: 5  votes:   3  helpful:   3
-    2000-1-26  cutomer: A1VORX5DTG67Y5  rating: 5  votes:   8  helpful:   8
-    2000-3-13  cutomer: A1SDY9FE99M8XV  rating: 5  votes:   3  helpful:   3
-    2000-4-1  cutomer: A3UFWO4S8DD9QN  rating: 5  votes:   3  helpful:   3
-    2000-4-3  cutomer: A3JVU4A533QXUM  rating: 5  votes:   4  helpful:   2
-    2000-4-29  cutomer: A2F0TAFTW6B9MV  rating: 5  votes:  10  helpful:  10
-    2000-6-16  cutomer:  A1FAWFMP6CDKG  rating: 5  votes:   1  helpful:   1
-    2000-6-23  cutomer: A38TC59GM2WW1X  rating: 5  votes:   4  helpful:   4
-    2000-7-26  cutomer:  AGJW0OG3A53FS  rating: 5  votes:   2  helpful:   2
-    2000-8-6  cutomer:  A4SYMIQ3C3JF7  rating: 5  votes:   9  helpful:   8
-    2000-8-20  cutomer: A1TYMZT12P1776  rating: 1  votes:  20  helpful:   2
-    2000-9-20  cutomer:  ACOMYCP1SZJ3V  rating: 3  votes:  12  helpful:   2
-    2000-9-20  cutomer:  ACOMYCP1SZJ3V  rating: 3  votes:   0  helpful:   0
-    2000-9-30  cutomer:  AGOUPXAL2FY5Q  rating: 5  votes:   7  helpful:   7
-    2000-11-1  cutomer: A2ZO5F9YDFOOXE  rating: 5  votes:   1  helpful:   1
-    2000-11-23  cutomer: A2GM2Q4BH5YKXI  rating: 5  votes:   4  helpful:   4
-    2000-12-5  cutomer: A27PSZX2SE0B51  rating: 5  votes:  11  helpful:  10
-    2001-1-15  cutomer: A3RW6FW6GD98T6  rating: 5  votes:   2  helpful:   2
-    2001-2-3  cutomer: A14VQ55F6O49C1  rating: 4  votes:   4  helpful:   2
-    2001-3-10  cutomer: A1FG91CM8221X1  rating: 4  votes:   6  helpful:   5
-    2001-5-24  cutomer: A3S3V8ZYP4QA34  rating: 5  votes:   2  helpful:   2
-    2001-6-25  cutomer: A3IHQ2PZVGVLYT  rating: 5  votes:   4  helpful:   4
-    2001-6-30  cutomer: A1O5EXI9TZ5OIB  rating: 5  votes:   4  helpful:   3
-    2001-8-24  cutomer:  AXQ8ZON5TWBOM  rating: 5  votes:   2  helpful:   2
-    2001-8-25  cutomer: A139UKO5EBS3DE  rating: 5  votes:   8  helpful:   6
-    2001-9-28  cutomer: A1NCG49884FO8Y  rating: 5  votes:   2  helpful:   2
-    2001-10-9  cutomer: A2VPF7XXTL5CIM  rating: 5  votes:   1  helpful:   1
-    2001-10-20  cutomer: A28E1R50ECVICI  rating: 5  votes:   2  helpful:   2
-    2001-10-28  cutomer: A1J5VAM7ONHW8C  rating: 5  votes:   2  helpful:   1
-    2001-11-3  cutomer: A14ONH38XAFMPZ  rating: 5  votes:   3  helpful:   3
-    2001-11-14  cutomer: A3PHP8HD7EHGNC  rating: 5  votes:   1  helpful:   1
-    2001-11-24  cutomer:  ACO20QL72D1E6  rating: 5  votes:   1  helpful:   1
-    2001-11-28  cutomer:  A3CLUHZAY3EBI  rating: 5  votes:   3  helpful:   3
-    2001-12-2  cutomer: A2SDRHXE3ZPAV9  rating: 1  votes:  27  helpful:   2
-    2001-12-9  cutomer:  A2STRPMSBCX1Z  rating: 5  votes:   1  helpful:   1
-    2001-12-13  cutomer:  AU13M6G9V1S92  rating: 5  votes:   2  helpful:   1
-    2002-1-7  cutomer: A2SBGTE825H1N3  rating: 5  votes:   6  helpful:   5
-    2002-1-13  cutomer: A3PNR566E43XXD  rating: 5  votes:  12  helpful:  10
-    2002-1-16  cutomer: A3L1RFRDUDMT9N  rating: 5  votes:   1  helpful:   1
-    2002-1-17  cutomer:  AJKEC4TN7PB70  rating: 4  votes:   3  helpful:   2
-    2002-1-18  cutomer: A3NCIN6TNL0MGA  rating: 5  votes:  32  helpful:  30
-    2002-1-19  cutomer: A35PANREUMVWMF  rating: 4  votes:   2  helpful:   1
-    2002-1-28  cutomer: A14VQ55F6O49C1  rating: 4  votes:   5  helpful:   4
-    2002-2-2  cutomer: A2VB13MDBBC62M  rating: 5  votes:  12  helpful:  10
-    2002-2-14  cutomer: A1LSY3GSGM7EO1  rating: 5  votes:   8  helpful:   8
-    2002-2-16  cutomer:  AIHE4VG5PYFTD  rating: 5  votes:   3  helpful:   3
-    2002-2-19  cutomer:  A9NIY264IA53L  rating: 5  votes:  11  helpful:  10
-    2002-3-5  cutomer:  A3YJE3QZ36QKY  rating: 5  votes:   5  helpful:   5
-    2002-3-8  cutomer: A2N8FXHH6BQBM2  rating: 5  votes:   4  helpful:   3
-    2002-3-19  cutomer:  AC3B5ZR80G259  rating: 5  votes:   3  helpful:   2
-    2002-3-20  cutomer:  AQQEY8QIDHWTC  rating: 5  votes:   4  helpful:   3
-    2002-3-27  cutomer:  ARKNQJL8ZHMFG  rating: 5  votes:  33  helpful:  30
-    2002-4-2  cutomer: A1RGDGQKTYDOQ2  rating: 5  votes:   2  helpful:   0
-    2002-4-4  cutomer:  AK6GK4YKGAW1J  rating: 5  votes:   8  helpful:   5
-    2002-4-13  cutomer: A3K5IMGDCDBCNF  rating: 4  votes:   7  helpful:   3
-    2002-4-29  cutomer:  AAE0NLLXK9LBO  rating: 5  votes:   5  helpful:   3
-    2002-6-10  cutomer: A3H1PHFYE7L8PZ  rating: 5  votes:   7  helpful:   3
-    2002-6-10  cutomer: A3IE3XMT2FO0GX  rating: 4  votes:   8  helpful:   7
-    2002-6-11  cutomer:  ADN1VR27SBB40  rating: 4  votes:   7  helpful:   3
-    2002-6-27  cutomer: A2LJAHUVIOVRFS  rating: 1  votes:  23  helpful:   4
-    2002-6-28  cutomer:  AWHBP5Z5Y38K0  rating: 4  votes:   4  helpful:   3
-    2002-7-7  cutomer: A1X96YN0SF0DY9  rating: 1  votes:  26  helpful:   1
-    2002-7-18  cutomer:  AMPMZ48UIV7K3  rating: 5  votes:   2  helpful:   2
-    2002-7-27  cutomer: A2PRCUQ7E102CY  rating: 5  votes:   3  helpful:   3
-    2002-8-1  cutomer:  ADIRB9THRLLRN  rating: 5  votes:  15  helpful:  14
-    2002-8-3  cutomer: A15GD79WY6VJKF  rating: 5  votes:   6  helpful:   6
-    2002-10-5  cutomer: A2J5WTBWFP6JYF  rating: 5  votes:   8  helpful:   6
-    2002-10-27  cutomer: A1OXW9CON07RKA  rating: 5  votes:   8  helpful:   8
-    2002-10-31  cutomer: A3JOS2J6LGCVSS  rating: 1  votes:  26  helpful:   4
-    2002-11-15  cutomer: A2N3Y79SOW6UB6  rating: 5  votes:   5  helpful:   5
-    2003-1-19  cutomer:  A3C9YV5PH7JFS  rating: 5  votes:   5  helpful:   5
-    2003-2-15  cutomer: A1QSPYMYN7HVQU  rating: 1  votes:  74  helpful:   1
-    2003-4-1  cutomer: A1ZYWJEGLF0432  rating: 5  votes:   3  helpful:   3
-    2003-4-25  cutomer: A1THJ5GJF9NLCS  rating: 4  votes:   1  helpful:   1
-    2003-7-26  cutomer:  AIKTK703685OT  rating: 5  votes:   3  helpful:   3
-    2003-7-29  cutomer: A1TK6R2JSC97HL  rating: 4  votes:  16  helpful:  16
-    2003-8-1  cutomer: A1T0V9QIBSUDJT  rating: 5  votes:   6  helpful:   5
-    2003-9-2  cutomer:  A3P25XJ89W29W  rating: 5  votes:   4  helpful:   4
-    2003-10-5  cutomer:  A9IY1MAUGGD1O  rating: 4  votes:   5  helpful:   4
-    2003-10-11  cutomer: A3GP4V4INXSWFU  rating: 5  votes:   5  helpful:   3
-    2003-10-17  cutomer: A2WPL6Y08K6ZQH  rating: 5  votes:  25  helpful:  21
-    2003-10-18  cutomer: A3JXOXKWOIETIY  rating: 5  votes:   7  helpful:   5
-    2003-12-23  cutomer:  A94D7DYH9KQ8H  rating: 5  votes:   3  helpful:   3
-    2004-1-24  cutomer:  AB66TOYDD79VA  rating: 5  votes:   8  helpful:   7
-    2004-2-8  cutomer:  AD2QE5V8DA4DQ  rating: 2  votes:   8  helpful:   0
-    2004-2-13  cutomer:  AVAAZNXDP6CKM  rating: 5  votes:   4  helpful:   4
-    2004-3-8  cutomer: A1QPVFE3074P1Y  rating: 5  votes:   6  helpful:   6
-    2004-5-13  cutomer: A36V1NPNEK8ASF  rating: 5  votes:   4  helpful:   4
-    2004-6-16  cutomer: A37L7MLPLBTO28  rating: 5  votes:   5  helpful:   4
-    2004-7-1  cutomer: A2N2IECCNKP5ZZ  rating: 5  votes:   5  helpful:   4
-    2004-7-13  cutomer:  A3YJE3QZ36QKY  rating: 5  votes:   5  helpful:   5
-    2004-7-18  cutomer: A3KBOOKMKYE7RB  rating: 5  votes:   9  helpful:   6
-    2004-7-18  cutomer: A3VI2UDXYEUZ3L  rating: 4  votes:   6  helpful:   4
-    2004-7-19  cutomer: A2BD157WUNIL17  rating: 5  votes:   6  helpful:   5
-    2004-7-24  cutomer: A1W3FS1C2H4RCV  rating: 5  votes:   3  helpful:   3
-    2004-7-25  cutomer: A1FK2X8I6U3L0B  rating: 5  votes:   4  helpful:   3
-    2004-7-26  cutomer: A3K1RVYM3JQZZS  rating: 5  votes:   4  helpful:   4
-    2004-8-1  cutomer: A3DWUM6SN3N3NR  rating: 5  votes:  13  helpful:  12
-    2004-8-6  cutomer: A2SBB4CNSNL7HK  rating: 4  votes:   7  helpful:   6
-    2004-8-6  cutomer:  A8P2C961LFEL1  rating: 1  votes:  26  helpful:   3
-    2004-8-11  cutomer: A3P1A63Q8L32C5  rating: 4  votes:   7  helpful:   7
-    2004-8-30  cutomer:  ASJ89T42CIUHU  rating: 5  votes:   7  helpful:   6
-    2004-9-5  cutomer: A30UDDRL5GASLA  rating: 2  votes:  32  helpful:   6
-    2004-9-26  cutomer: A1YNIL7FJZQG7G  rating: 1  votes:  19  helpful:   2
-    2004-10-18  cutomer: A2FEJIORC1MBG3  rating: 3  votes:  13  helpful:   8
-    2004-10-23  cutomer: A2NJO6YE954DBH  rating: 4  votes:  12  helpful:  11
-    2004-11-7  cutomer:  A5B6P7PX0MZIF  rating: 5  votes:   7  helpful:   7
-    2004-11-13  cutomer: A1C3Q37GDJSE6W  rating: 5  votes:  10  helpful:   3
-    2004-11-13  cutomer:  AMUTYOX234D90  rating: 5  votes:  19  helpful:  17
-    2004-11-18  cutomer: A281NPSIMI1C2R  rating: 5  votes:  10  helpful:  10
-    2004-11-20  cutomer: A3D9VXSUDX8J36  rating: 5  votes:   9  helpful:   7
-    2004-11-22  cutomer: A331OF34UX4Y1K  rating: 4  votes:   7  helpful:   4
-    2004-12-23  cutomer: A2MS6UV7ZGTMLR  rating: 5  votes:  10  helpful:   9
-    2005-1-30  cutomer: A1NLFRD2RKZ105  rating: 5  votes:   1  helpful:   1
-    2005-1-30  cutomer: A2NUAPV7WK9MMB  rating: 1  votes:  16  helpful:   0
-    2005-2-1  cutomer: A28364B5MYR96B  rating: 5  votes:   6  helpful:   5
-    2005-2-2  cutomer: A19OQ7LWE2YJL3  rating: 2  votes:  23  helpful:   2
-    2005-2-5  cutomer: A1L8HRCM60W0W7  rating: 4  votes:  16  helpful:  15
-    2005-2-6  cutomer:  AXWADOQU9KU1N  rating: 5  votes:   5  helpful:   4
-    2005-2-17  cutomer: A1GSR7RGCG1QYZ  rating: 2  votes:  13  helpful:   3
-    2005-3-5  cutomer:  AHRYQTPE49OT5  rating: 5  votes:   4  helpful:   3
-    2005-3-14  cutomer:  A84UFSF2SZS2W  rating: 2  votes:  17  helpful:   3
-    2005-3-23  cutomer: A17BGEG6PA53W1  rating: 4  votes:   1  helpful:   1
-    2005-4-7  cutomer:  A17JVVAKWEB0M  rating: 5  votes:   1  helpful:   1
-    2005-4-8  cutomer:   A6ADO7B6FUVN  rating: 5  votes:   4  helpful:   3
-    2005-4-30  cutomer:  A5G0Y0IXTBXGT  rating: 1  votes:  29  helpful:   6
-    2005-5-19  cutomer: A2HRFKK8VHERPV  rating: 1  votes:  21  helpful:   3
-    2005-5-26  cutomer: A23I6E6TH91BT8  rating: 5  votes:   1  helpful:   1
-    2005-5-27  cutomer: A2QHM5HBSIXRL4  rating: 5  votes:   3  helpful:   2
-    2005-6-15  cutomer: A3PG0BXDITK88P  rating: 1  votes:   1  helpful:   1
-    2005-6-17  cutomer: A2N3UCNKUQFC23  rating: 1  votes:   1  helpful:   0
-    2005-6-19  cutomer: A1T4IVIH6NUEXF  rating: 4  votes:   1  helpful:   0
+
+Id:   407658
+ASIN: 0842333282
+  title: Daily Study Bible for Men (Daily Study Bible for Men)
+  group: Book
+  salesrank: 402357
+  similar: 5  0842333355  0842374841  0310805554  0842352333  0310926106
+  categories: 3
+   |Books[283155]|Subjects[1000]|Religion & Spirituality[22]|Christianity[12290]|Bibles[12059]|Translations[764432]|New Living Translation[12112]
+   |Books[283155]|Subjects[1000]|Religion & Spirituality[22]|Christianity[12290]|Bibles[12059]|Specific Types[764436]|Study Bibles[572076]
+   |Books[283155]|Subjects[1000]|Religion & Spirituality[22]|Christianity[12290]|Reference[172810]|Bible Study[720864]|General[720866]
+  reviews: total: 4  downloaded: 4  avg rating: 4.5
+    2001-4-29  cutomer:  APXKOJLRSNPNU  rating: 5  votes:   1  helpful:   0
+    2001-8-19  cutomer: A254NARFN106GL  rating: 5  votes:   5  helpful:   5
+    2002-4-8  cutomer: A1SLB1DETYHB4B  rating: 5  votes:   3  helpful:   3
+    2004-5-5  cutomer:  A3DOCATZMUOKJ  rating: 3  votes:   0  helpful:   0
+
+Id:   277918
+ASIN: 0842332588
+  title: Daily Walk Bible
+  group: Book
+  salesrank: 67303
+  similar: 5  0842322272  0842346163  0736901981  0842333355  0529072599
+  categories: 2
+   |Books[283155]|Subjects[1000]|Religion & Spirituality[22]|Christianity[12290]|Bibles[12059]|Translations[764432]|New Living Translation[12112]
+   |Books[283155]|Subjects[1000]|Religion & Spirituality[22]|Spirituality[12809]|Devotionals[69980]
+  reviews: total: 13  downloaded: 13  avg rating: 5
+    1998-12-14  cutomer: A1266E6DN2YLV6  rating: 5  votes:  11  helpful:  11
+    1999-5-19  cutomer: A3PYZ3JJL0E4TU  rating: 5  votes:  13  helpful:  13
+    1999-9-13  cutomer:  ATVPDKIKX0DER  rating: 5  votes:  21  helpful:  19
+    2000-1-4  cutomer: A1IJUTD4V2UHU7  rating: 5  votes:  11  helpful:  11
+    2001-11-25  cutomer: A2IF01U3D01GL7  rating: 5  votes:   0  helpful:   0
+    2001-12-5  cutomer: A252L6NJQS8GPJ  rating: 5  votes:   3  helpful:   3
+    2002-4-22  cutomer: A3DYIEGYZPL70H  rating: 5  votes:   2  helpful:   2
+    2002-7-17  cutomer: A1QZM5M2602YQJ  rating: 5  votes:   4  helpful:   4
+    2002-10-8  cutomer: A1G1S2VEBY61V1  rating: 5  votes:   4  helpful:   4
+    2002-10-25  cutomer: A1EMDSTJDUE6B0  rating: 5  votes:   0  helpful:   0
+    2002-10-25  cutomer: A1EMDSTJDUE6B0  rating: 5  votes:   2  helpful:   2
+    2002-10-28  cutomer: A1B0KL6I7FABJ3  rating: 5  votes:   4  helpful:   4
+    2004-4-19  cutomer: A3UN6WX5RRO2AG  rating: 5  votes:   3  helpful:   1
+
+Id:   95592
+ASIN: 0842352333
+  title: The One Year Book of Devotions for Women
+  group: Book
+  salesrank: 254371
+  similar: 5  0842319204  0842319190  0849944457  0842333355  1590522346
+  categories: 4
+   |Books[283155]|Subjects[1000]|Religion & Spirituality[22]|General[12504]
+   |Books[283155]|Subjects[1000]|Religion & Spirituality[22]|Spirituality[12809]|Devotionals[69980]
+   |Books[283155]|Subjects[1000]|Religion & Spirituality[22]|Christianity[12290]|Worship & Devotion[12465]|Devotionals[69982]
+   |Books[283155]|Subjects[1000]|Religion & Spirituality[22]|Christianity[12290]|Christian Living[12333]|Women's Issues[3043241]
+  reviews: total: 0  downloaded: 0  avg rating: 0
+
+  
+Id:   275534
+ASIN: 0842345671
+  title: NLT New Believer's Bible (New Believer's Bible)
+  group: Book
+  salesrank: 434873
+  similar: 5  084234571X  084235574X  0842355723  0842355731  071800633X
+  categories: 1
+   |Books[283155]|Subjects[1000]|Religion & Spirituality[22]|Christianity[12290]|Bibles[12059]|Translations[764432]|New Living Translation[12112]
+  reviews: total: 4  downloaded: 4  avg rating: 4.5
+    1999-1-25  cutomer: A2SA4636DLKI49  rating: 5  votes:   7  helpful:   6
+    2000-8-1  cutomer:  APTB10CPGURJM  rating: 2  votes:  13  helpful:   3
+    2001-4-8  cutomer: A3JUXTAJ8IB2YK  rating: 5  votes:   3  helpful:   2
+    2002-6-21  cutomer: A1OKSDC0YIFBZY  rating: 5  votes:   5  helpful:   4

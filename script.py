@@ -80,7 +80,7 @@ def numbers_to_strings(argument):
     return switcher.get(argument, "nothing")
 
 
-with open("entrada1.txt", "r") as arquivo:
+with open("a.txt", "r") as arquivo:
     entrada = arquivo.readlines()
     entradaSemQuebra = [n.replace('\n', '')
                         for n in entrada]
@@ -140,15 +140,15 @@ with open("entrada1.txt", "r") as arquivo:
     end = time.time()
     print(end - start)
 
-print(lista)
+# print(lista)
 
 # seeds bd
 # commands
 # connection.manipular
 # connection.consultar
-# connection.fechar
-for element in lista:
-    print(element.get('title'))
+# # connection.fechar
+# for element in lista:
+#     print(element.get('title'))
 
 connection = Connection("localhost", "teste", "postgres", "123456")
 
@@ -243,7 +243,7 @@ connection.manipulate("""
     ON CONFLICT DO NOTHING;
 """)
 for element in lista:
-    print(element)
+    # print(element)
     id = element.get('id')
     asin = element.get('asin')
     title = element.get('title')
@@ -252,7 +252,7 @@ for element in lista:
     similar = element.get('similar')
     categories = element.get('categories')
     reviews = element.get('reviews')
-    print("groupp", group_id)
+    # print("groupp", group_id)
     id_product = connection.manipulate(f"""
             INSERT INTO products (
                 id,
@@ -269,10 +269,10 @@ for element in lista:
                 {salesrank if salesrank else 'null'}
             ) ON CONFLICT DO NOTHING RETURNING ID;
         """)
-    print(id_product)
+    # print(id_product)
     if similar:
         for s in similar:
-            print(s)
+            # print(s)
             id_similar = connection.manipulate(f"""
                 INSERT INTO similars (
                     id,
@@ -296,7 +296,7 @@ for element in lista:
             """)
     if categories:
         for category in categories:
-            print(category)
+            # print(category)
             id_category = connection.manipulate(f"""
                 INSERT INTO categories (
                     id, 
@@ -322,7 +322,7 @@ for element in lista:
             """)
     if(reviews):
         for review in reviews:
-            print(review['helpful'])
+            # print(review['helpful'])
             id_review = connection.manipulate(f"""
                 INSERT INTO reviews (
                     review_data, 
@@ -339,10 +339,10 @@ for element in lista:
                     {review['helpful']}
                 )ON CONFLICT DO NOTHING RETURNING ID;
             """)
-            print(id_product)
-            print(review)
-            print(id_review)
-            print(connection.manipulate(f"""
+            # print(id_product)
+            # print(review)
+            # print(id_review)
+            connection.manipulate(f"""
                 INSERT INTO products_reviews (
                     product_id, 
                     review_id
@@ -351,8 +351,8 @@ for element in lista:
                     {id_product}, 
                     {id_review}
                 )RETURNING ID;
-            """))
+            """)
 
-while True:
-    id_produto = int(input(
-        'Insira o id do produto que voce deseja ver os 5 mais uteis com maior avaliação e 5 mais uteis com menor avaliação: '))
+# while True:
+#     id_produto = int(input(
+#         'Insira o id do produto que voce deseja ver os 5 mais uteis com maior avaliação e 5 mais uteis com menor avaliação: '))
