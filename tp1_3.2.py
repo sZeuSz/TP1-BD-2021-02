@@ -1,3 +1,8 @@
+from tomlkit import table
+from rich.table import Table
+from rich.progress import track
+from rich.markdown import Markdown
+from rich.console import Console
 import psycopg2
 import time
 import re
@@ -9,8 +14,12 @@ class Connection(object):
     _db = None
 
     def __init__(self, mhost, db, usr, pwd):
-        self._db = psycopg2.connect(
-            host=mhost, database=db, user=usr,  password=pwd)
+        try:
+            self._db = psycopg2.connect(
+                host=mhost, database=db, user=usr,  password=pwd)
+            print("êêêê conectou berg")
+        except Exception as error:
+            print(error)
 
     def manipulate(self, sql, id_similar=None):
         try:
@@ -80,7 +89,7 @@ def numbers_to_strings(argument):
     return switcher.get(argument, "nothing")
 
 
-with open("a.txt", "r") as arquivo:
+with open("entrada1.txt", "r") as arquivo:
     entrada = arquivo.readlines()
     entradaSemQuebra = [n.replace('\n', '')
                         for n in entrada]
@@ -150,7 +159,9 @@ with open("a.txt", "r") as arquivo:
 # for element in lista:
 #     print(element.get('title'))
 
-connection = Connection("localhost", "teste", "postgres", "123456")
+
+connection = Connection("database", "tp1-bd-2021-02",
+                        "tp1-bd-2021-02", "tp1-bd-2021-02")
 
 # creating tables
 
@@ -352,7 +363,3 @@ for element in lista:
                     {id_review}
                 )RETURNING ID;
             """)
-
-# while True:
-#     id_produto = int(input(
-#         'Insira o id do produto que voce deseja ver os 5 mais uteis com maior avaliação e 5 mais uteis com menor avaliação: '))

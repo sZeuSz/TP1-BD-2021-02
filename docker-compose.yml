@@ -1,0 +1,27 @@
+services:
+  database:
+    image: postgres
+    ports:
+      - "5432:5432"
+    restart: always
+    environment:
+      POSTGRES_USER: tp1-bd-2021-02
+      POSTGRES_PASSWORD: tp1-bd-2021-02
+      POSTGRES_DB: tp1-bd-2021-02
+    networks:
+      - network-app
+    container_name: "tp1_mateus_roseno_richard_postgres"
+  python:
+    build:
+      context: .
+    depends_on:
+      - database
+    volumes:
+     - ./:/app
+    networks:
+      - network-app
+    stdin_open: true
+    tty: true
+    container_name: "tp1_mateus_roseno_richard_postgres_python"
+networks:
+  network-app:
